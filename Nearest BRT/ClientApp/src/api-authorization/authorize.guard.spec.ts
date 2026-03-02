@@ -5,7 +5,7 @@ import { AuthorizeGuard } from './authorize.guard';
 describe('AuthorizeGuard', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [AuthorizeGuard]
+      providers: [AuthorizeGuard], imports: [ require('@angular/router/testing').RouterTestingModule ]
     });
   });
 
