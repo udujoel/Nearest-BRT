@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "progress": false,
-            "extractCss": true,
+
             "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -37,8 +37,8 @@
               ],
               "optimization": true,
               "outputHashing": "all",
-              "sourceMap": false,
-              "extractCss": true,
+              "sourceMap": false, "vendorSourceMap": false,
+
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
@@ -94,7 +94,7 @@
             "dev": {
               "optimization": true,
               "outputHashing": "all",
-              "sourceMap": false,
+              "sourceMap": false, "vendorSourceMap": false,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": true
@@ -102,7 +102,7 @@
             "production": {
               "optimization": true,
               "outputHashing": "all",
-              "sourceMap": false,
+              "sourceMap": false, "vendorSourceMap": false,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false

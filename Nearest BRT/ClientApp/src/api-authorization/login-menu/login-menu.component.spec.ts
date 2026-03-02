@@ -8,7 +8,7 @@ describe('LoginMenuComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LoginMenuComponent ]
+      declarations: [ LoginMenuComponent ], imports: [ require('@angular/router/testing').RouterTestingModule ]
     })
     .compileComponents();
   }));

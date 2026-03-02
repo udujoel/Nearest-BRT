@@ -8,7 +8,7 @@ describe('LoginComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LoginComponent ]
+      declarations: [ LoginComponent ], imports: [ require('@angular/router/testing').RouterTestingModule ]
     })
     .compileComponents();
   }));
